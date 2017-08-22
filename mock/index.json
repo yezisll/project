@@ -1,0 +1,110 @@
+{
+	"ret": "true",
+	"data":{
+		"advantage":[{
+			"id":"1",
+			"title":"陈述",
+			"content1":"反应使创建交互式UI无痛，为您的应用程序中的每个状态设计简单的视图，当您的数据更改时，React将有效地更新和呈现正确的组件。",
+			"content2":"声明式视图使您的代码更可预测，更易于调试。"
+		},{
+			"id":"2",
+			"title":"基于组件的React",
+			"content1":"构建封装的组件来管理自己的状态，然后组合它们以创建复杂的UI。",
+			"content2":"由于组件逻辑是用JavaScript而不是模板编写的，因此您可以轻松地通过应用程序传递丰富的数据，并将状态保留在DOM之外。"
+		},{
+			"id":"3",
+			"title":"学习一次，写任何地方",
+			"content1":"我们不对您的技术堆栈的其余部分做出假设，因此您可以在React中开发新功能，而无需重写现有代码。",
+			"content2":"React也可以在服务器上使用Node和强大的移动应用程序进行渲染"
+		}],
+		"mainerContent":[{
+			"id":"1",
+			"title":"A Simple Component",
+			"content":"React components implement a render() method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.JSX is optional and not required to use React. Try clicking on 'Compiled JS' to see the raw JavaScript code produced by the JSX compiler."
+		},{
+			"id":"2",
+			"title":"A Stateful Component",
+			"content":"In addition to taking input data (accessed via this.props), a component can maintain internal state data (accessed via this.state). When a component's state data changes, the rendered markup will be updated by re-invoking render()."
+		},{
+			"id":"3",
+			"title":"An Application",
+			"content":"Using props and state, we can put together a small Todo application. This example uses state to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation."
+		}],
+		"code":[{
+			"id":"1",
+			"codeTitle":"Live JSX Editor",
+			"codeContent1":"class HelloMessage extends React.Component {",
+			"codeContent2":"render() {",
+			"codeContent3":"return <div>Hello {this.props.name}</div>;",
+			"codeContent4":"}",
+			"codeContent5":"}",
+			"codeContent6":"ReactDOM.render(<HelloMessage name='John' />, mountNode);"				
+		},{
+			"id":"2",
+			"codeTitle":"Compiled JS",
+			"codeContent1":"class HelloMessage extends React.Component {",
+			"codeContent2":"render() {",
+			"codeContent3":"return React.createElement(",
+			"codeContent4":"'div',null,'Hello '",
+			"codeContent5":"this.props.name);}}",
+			"codeContent6":"ReactDOM.render(React.createElement(HelloMessage, { name: 'John' }),mountNode);"				
+		}],
+		"cardContent1":[{
+			"id":"1",
+			"content":"Quick Start"
+		},{
+			"id":"2",
+			"content":"Thinking in React"
+		},{
+			"id":"3",
+			"content":"Tutorial"
+		},{
+			"id":"4",
+			"content":"Advanced Guides"
+		}],
+		"cardContent2":[{
+			"id":"1",
+			"content":"Stack Overflow"
+		},{
+			"id":"2",
+			"content":"Discussion Forum"
+		},{
+			"id":"3",
+			"content":"Reactiflux Chat"
+		},{
+			"id":"4",
+			"content":"Facebook"
+		},{
+			"id":"5",
+			"content":"Twitter"
+		}],
+		"cardContent3":[{
+			"id":"1",
+			"content":"Conferences"
+		},{
+			"id":"2",
+			"content":"Videos"
+		},{
+			"id":"3",
+			"content":"Examples"
+		},{
+			"id":"4",
+			"content":"Complementary Tools"
+		}],
+		"cardContent4":[{
+			"id":"1",
+			"content":"Blog"
+		},{
+			"id":"2",
+			"content":"GitHub"
+		},{
+			"id":"3",
+			"content":"React Native"
+		},{
+			"id":"4",
+			"content":"Acknowledgements"
+		}]
+
+
+	}
+}
